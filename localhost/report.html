@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Отчёт lab3</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <center><h1>Алгоритмы на графах</h1>
+        <h3>Лабораторная работа №3</h3>
+        <h5>По курсу «Языки программирования и методы программирования» (информатика, 3 семестр)</h5>
+        <h5>Выполнила Суслова Ирина, Б20-215</h5>
+        <p><i>Цель:</i> написать программу на C++, реализующую алгоритмы (поиска) на графах.</p>
+        <p>В данной работе было <i>реализовано:</i></p></center>
+        <ol>
+            <li>Структура графа (6 баллов) и орграфа (5 баллов)</li>
+            <li>Алгоритм поиск кратчайших путей (алгоритм Дейкстры) (5 баллов)</li>
+            <li>Проанализирована его работа на большом графе (8 баллов)</li>
+            <li>Алгоритм поиска пути с наибольшей пропускной способностью (7 баллов)</li>
+            <li>Генерация графа по заданный параметрам (10 баллов)</li>
+            <li>Материализация графа (3 балла)</li>
+            <li>Был использован алгоритм динамического программирования (10 баллов)</li>
+        </ol>
+        <center><p>При <i>генерации</i> можно указать следующие параметры: вид графа (ориентированный/неориентированный), количество вершин, количество ребёр (необязательно, может быть произвольным).</p>
+        <p>Код тестов можно посмотреть в «tests.cpp», результаты измерения времени и графики в папке «testsLab3». Графики были построены с помощью библиотеки pandas для Python. Посмотреть реализацию можно в «lab3.ipynb» (файл jupyter notebook).</p>
+        <p>Меню представлено в виде сайта, папка сервера – «localhost». Код, который запускается при запросе на сервер, находится в «main.cpp»/</p>
+        <p><i>Графики</i></p>
+        <div><div>
+            <img src="lab3_img\generation.png" alt="Generation">
+            <img src="lab3_img\bestPath.png" alt="BestPath">
+        </div>
+        <div>
+            <img src="lab3_img\bestPathThroughput.png" alt="BestPathThroughput">
+            <img src="lab3_img\drawing.png" alt="Drawing">
+        </div></div>
+        <p><i>Пример работы алгоритмов:</i></p>
+        <div>
+	<div>
+            <p><b>BestPath (граф и орграф):</b></p>
+        </div>
+        <div>
+            <img src="lab3_img\bestPathGraph.png" alt="BestPathThroughput">
+            <img src="lab3_img\bestPathDigraph.png" alt="Drawing">
+        </div>
+	<div>
+            <p><b>BestPathThroughput (граф и орграф):</b></p>
+        </div>
+        <div>
+            <img src="lab3_img\bestPathThroughputGraph.png" alt="Generation">
+            <img src="lab3_img\bestPathThroughputDigraph.png" alt="BestPath">
+        </div>
+	</div>
+        <div class="button-container">
+            <a href="http://localhost/index.html" class="double-border-button">Назад</a>
+        </div></center>
+    </body>
+</html>

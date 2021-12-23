@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Графы lab3</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <center><h1>Алгоритмы на графах</h1>
+        <h3>Лабораторная работа №3</h3>
+        <form action="results.php" method="post">
+	    <p><b>Выберите тип графа:</b></p>
+            <input type="radio" name="groupTypeGraph" value="Graph" checked>Неориентированный граф<br>
+            <input type="radio" name="groupTypeGraph" value="Digraph">Ориентированный граф<br>
+
+            <p><b>Введите количество элементов:</b> <input type="number" name="number_vertex" min="0" value="0"> </p>
+
+            <p><b>Введите количество ребер</b> (-1, чтобы было случайное число): <input type="number" name="number_arcs" min="-1" value="-1"> </p>
+            
+            <p><b>Выберите необходимую задачу:</b></p>
+            <input type="radio" name="groupTypeTask" value="BestPath" checked>Поиск кратчайшего пути<br>
+            <input type="radio" name="groupTypeTask" value="BestPathThroughput">Поиск пути с наибольшей пропускной способностью<br>
+
+            <p><input type="submit" class="submit-button"></p>
+        </form></center>
+        
+        <center><div class="button-container">
+            <a href="http://localhost/index.html" class="double-border-button">Назад</a>
+        </div></center>
+    </body>
+</html>
