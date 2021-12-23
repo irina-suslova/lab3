@@ -29,13 +29,15 @@
 
 |![](localhost/lab3_img/generation.png)|![](localhost/lab3_img/bestPath.png)|
 | :- | :- |
-|![](localhost/lab3_img/bestPathThroughput.png)|![](localhost/lab3_img/drawing.png.png)|
+|![](localhost/lab3_img/bestPathThroughput.png)|![](localhost/lab3_img/drawing.png)|
 
 ***Пример работы алгоритмов:***
 
-|***BestPath (граф и орграф):***|
-| :-: |
+***BestPath (граф и орграф):***
+
 |![](localhost/lab3_img/bestPathGraph.png)|![](localhost/lab3_img/bestPathDigraph.png)|
-|<p>***BestPathThroughput (граф и орграф):***</p><p></p>|
+
+***BestPathThroughput (граф и орграф):***
+
 |![](localhost/lab3_img/bestPathThroughputGraph.png)|![](localhost/lab3_img/bestPathThroughputDigraph.png)|
 
